@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>514684030276-h1f3l44tn4utdatpnklj02q293feklsc.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.514684030276-h1f3l44tn4utdatpnklj02q293feklsc</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBZvQ8GhvhH7biguLMaX6Uo9kz5WG-xrgQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>514684030276</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>org.reactjs.native.example.LifePlanner</string>
+	<key>PROJECT_ID</key>
+	<string>lifeplannerapp-bdb11</string>
+	<key>STORAGE_BUCKET</key>
+	<string>lifeplannerapp-bdb11.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:514684030276:ios:f218d55e3cec84fe511b11</string>
+</dict>
+</plist>
