@@ -45,6 +45,7 @@
 		89C6BE57DB24E9ADA2F236DE /* Pods-LifePlanner-LifePlannerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifePlanner-LifePlannerTests.release.xcconfig"; path = "Target Support Files/Pods-LifePlanner-LifePlannerTests/Pods-LifePlanner-LifePlannerTests.release.xcconfig"; sourceTree = "<group>"; };
 		BD03FFF01ACE6260FE5FA8F7 /* Pods_LifePlanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LifePlanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E89C43D12A68214300EF18CA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E8F390182A6A8AF700063F03 /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -88,6 +89,7 @@
 		13B07FAE1A68108700A75B9A /* LifePlanner */ = {
 			isa = PBXGroup;
 			children = (
+				E8F390172A6A8AE500063F03 /* Fonts */,
 				E89C43D12A68214300EF18CA /* GoogleService-Info.plist */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
@@ -149,6 +151,14 @@
 				89C6BE57DB24E9ADA2F236DE /* Pods-LifePlanner-LifePlannerTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		E8F390172A6A8AE500063F03 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E8F390182A6A8AF700063F03 /* Feather.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
