@@ -11,6 +11,7 @@ import Profile from './tabScreens/Profile/Profile';
 
 // App Screens
 import TaskManagement from './appScreens/TaskManagement/TaskManagement';
+import BudgetManager from './appScreens/BudgetManager/BudgetManager';
 
 export {
   Onboarding,
@@ -21,4 +22,5 @@ export {
   AppsPage,
   Profile,
   TaskManagement,
+  BudgetManager,
 };
