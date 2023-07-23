@@ -4,7 +4,7 @@ import Paginator from './onboarding/Paginator/Paginator';
 
 // Stacks
 import AuthStack from './stacks/AuthStack/AuthStack';
-import AppStack from './stacks/AppStack/AppStack';
+import TabStack from './stacks/TabStack/TabStack';
 
 // Login
 import Header from './login/Header/Header';
@@ -15,16 +15,28 @@ import LoginSwitch from './login/LoginSwitch/LoginSwitch';
 import DarkButton from './general/DarkButton/DarkButton';
 import AppButton from './general/AppButton/AppButton';
 import ProfileButton from './general/ProfileButton/ProfileButton';
+import InputField from './general/InputField/InputField';
+import DateInput from './general/DateInput/DateInput';
+
+// Task Management
+import TaskHome from './taskmanagement/TaskHome/TaskHome';
+import TaskStatus from './taskmanagement/TaskStatus/TaskStatus';
+import Task from './taskmanagement/Task/Task';
 
 export {
   OnboardingItem,
   Paginator,
   AuthStack,
-  AppStack,
+  TabStack,
   Header,
   Input,
   LoginSwitch,
   DarkButton,
   AppButton,
   ProfileButton,
+  TaskHome,
+  TaskStatus,
+  Task,
+  InputField,
+  DateInput,
 };
