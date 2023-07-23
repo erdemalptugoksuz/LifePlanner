@@ -16,3 +16,7 @@ Key Features:
 **Packages:** Firebase, React Navigation, React Native Date Picker, React Native Dropdown Select List, React Native Flash Message, React Native Vector Icons
 
 **Database, Auth:** Firebase
+
+## Usage Video
+
+https://github.com/erdemalptugoksuz/LifePlanner/assets/81254185/381495d7-4b19-4965-997d-3803fa28bb42
