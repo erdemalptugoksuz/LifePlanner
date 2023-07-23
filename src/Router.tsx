@@ -4,7 +4,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import FlashMessage from 'react-native-flash-message';
 import auth from '@react-native-firebase/auth';
 
-import {AuthStack, AppStack} from './components';
+import {AuthStack, TabStack} from './components';
 
 const Router = () => {
   const [userSession, setUserSession] = useState(false);
@@ -18,7 +18,7 @@ const Router = () => {
   return (
     <NavigationContainer>
       <StatusBar barStyle="light-content" backgroundColor="#fff" />
-      {!userSession ? <AuthStack /> : <AppStack />}
+      {!userSession ? <AuthStack /> : <TabStack />}
       <FlashMessage position="top" />
     </NavigationContainer>
   );
