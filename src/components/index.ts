@@ -24,6 +24,10 @@ import TaskHome from './taskmanagement/TaskHome/TaskHome';
 import TaskStatus from './taskmanagement/TaskStatus/TaskStatus';
 import Task from './taskmanagement/Task/Task';
 
+// Budget Manager
+import BudgetHome from './budgetmanager/BudgetHome/BudgetHome';
+import Transaction from './budgetmanager/Transaction/Transaction';
+
 export {
   OnboardingItem,
   Paginator,
@@ -41,4 +45,6 @@ export {
   Task,
   InputField,
   DateInput,
+  BudgetHome,
+  Transaction,
 };
