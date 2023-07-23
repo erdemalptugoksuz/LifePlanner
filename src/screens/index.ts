@@ -4,10 +4,13 @@ import SignUp from './authScreens/SignUp/SignUp';
 import SignIn from './authScreens/SignIn/SignIn';
 import ForgotPassword from './authScreens/ForgotPassword/ForgotPassword';
 
-// App Screens
+// Tab Screens
 import Calendar from './tabScreens/Calendar/Calendar';
 import AppsPage from './tabScreens/AppsPage/AppsPage';
 import Profile from './tabScreens/Profile/Profile';
+
+// App Screens
+import TaskManagement from './appScreens/TaskManagement/TaskManagement';
 
 export {
   Onboarding,
@@ -17,4 +20,5 @@ export {
   Calendar,
   AppsPage,
   Profile,
+  TaskManagement,
 };
