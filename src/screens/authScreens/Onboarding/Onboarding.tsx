@@ -7,13 +7,12 @@ import {
   TouchableOpacity,
   ViewToken,
 } from 'react-native';
-import {NavigationProp} from '@react-navigation/native';
 
 import styles from './Onboarding.style';
 import {slides} from '../../../assets';
 import {OnboardingItem, Paginator} from '../../../components';
 
-const Onboarding = ({navigation}: {navigation: NavigationProp<any>}) => {
+const Onboarding = ({navigation}: any) => {
   const [currentIndex, setCurrentIndex] = useState<number>(0);
   const scroolX = useRef(new Animated.Value(0)).current;
   const slidesRef = useRef<FlatList>(null);
@@ -31,12 +30,12 @@ const Onboarding = ({navigation}: {navigation: NavigationProp<any>}) => {
     if (currentIndex < slides.length - 1) {
       slidesRef.current?.scrollToIndex({index: currentIndex + 1});
     } else {
-      navigation.navigate('SignUpScreen');
+      navigation.replace('SignUpScreen');
     }
   };
 
   const handleSkip = () => {
-    navigation.navigate('SignUpScreen');
+    navigation.replace('SignUpScreen');
   };
 
   return (
