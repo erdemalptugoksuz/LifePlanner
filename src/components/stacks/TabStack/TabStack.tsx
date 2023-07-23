@@ -2,12 +2,12 @@ import React from 'react';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import Icon from 'react-native-vector-icons/Feather';
 
-import {Calendar, AppsPage, Profile} from '../../../screens';
+import {Calendar, AppsPage, Profile, TaskManagement} from '../../../screens';
 import {colors} from '../../../assets';
 
 const Tab = createBottomTabNavigator();
 
-const AppStack = () => {
+const TabStack = () => {
   const renderTabIcon = (name: string, size: number, focused: boolean) => {
     return (
       <Icon name={name} size={size} color={focused ? colors.snow : 'gray'} />
@@ -49,4 +49,4 @@ const AppStack = () => {
   );
 };
 
-export default AppStack;
+export default TabStack;
