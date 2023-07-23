@@ -2,7 +2,8 @@ import React from 'react';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import Icon from 'react-native-vector-icons/Feather';
 
-import {Calendar, AppsPage, Profile} from '../../../screens';
+import {Calendar, Profile} from '../../../screens';
+import {AppStack} from '../../../components';
 import {colors} from '../../../assets';
 
 const Tab = createBottomTabNavigator();
@@ -32,8 +33,8 @@ const TabStack = () => {
         }}
       />
       <Tab.Screen
-        name="AppsPageScreen"
-        component={AppsPage}
+        name="AppsPage"
+        component={AppStack}
         options={{
           tabBarIcon: ({size, focused}) => renderTabIcon('grid', size, focused),
         }}

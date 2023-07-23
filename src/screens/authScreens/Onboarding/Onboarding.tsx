@@ -30,12 +30,12 @@ const Onboarding = ({navigation}: any) => {
     if (currentIndex < slides.length - 1) {
       slidesRef.current?.scrollToIndex({index: currentIndex + 1});
     } else {
-      navigation.replace('SignUpScreen');
+      navigation.navigate('SignUpScreen');
     }
   };
 
   const handleSkip = () => {
-    navigation.replace('SignUpScreen');
+    navigation.navigate('SignUpScreen');
   };
 
   return (

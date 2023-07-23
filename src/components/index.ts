@@ -5,6 +5,7 @@ import Paginator from './onboarding/Paginator/Paginator';
 // Stacks
 import AuthStack from './stacks/AuthStack/AuthStack';
 import TabStack from './stacks/TabStack/TabStack';
+import AppStack from './stacks/AppStack/AppStack';
 
 // Login
 import Header from './login/Header/Header';
@@ -28,6 +29,7 @@ export {
   Paginator,
   AuthStack,
   TabStack,
+  AppStack,
   Header,
   Input,
   LoginSwitch,
