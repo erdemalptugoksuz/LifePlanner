@@ -5,9 +5,9 @@ import SignIn from './authScreens/SignIn/SignIn';
 import ForgotPassword from './authScreens/ForgotPassword/ForgotPassword';
 
 // App Screens
-import Calendar from './appScreens/Calendar/Calendar';
-import AppsPage from './appScreens/AppsPage/AppsPage';
-import Profile from './appScreens/Profile/Profile';
+import Calendar from './tabScreens/Calendar/Calendar';
+import AppsPage from './tabScreens/AppsPage/AppsPage';
+import Profile from './tabScreens/Profile/Profile';
 
 export {
   Onboarding,
