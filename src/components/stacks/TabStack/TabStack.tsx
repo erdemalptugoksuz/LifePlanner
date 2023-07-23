@@ -2,7 +2,7 @@ import React from 'react';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import Icon from 'react-native-vector-icons/Feather';
 
-import {Calendar, AppsPage, Profile, TaskManagement} from '../../../screens';
+import {Calendar, AppsPage, Profile} from '../../../screens';
 import {colors} from '../../../assets';
 
 const Tab = createBottomTabNavigator();
